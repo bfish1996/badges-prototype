@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  trailingSlash: true,
-  images: {
-    unoptimized: true
-  }
+  // Optimized for Vercel deployment
 }
 
 module.exports = nextConfig
